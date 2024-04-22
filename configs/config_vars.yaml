@@ -1,7 +1,10 @@
 worker-threads: 4
 worker-fs-threads: 2
-logger-level: info
+logger-level: debug
 
 is_testing: false
 
 server-port: 8080
+
+dbconnection-postgres: 'postgresql://user:password@localhost:8081/test'
+dbconnection-mysql: 'mysql://root:password@localhost:8082/test'

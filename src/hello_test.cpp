@@ -1,4 +1,5 @@
 #include "hello.hpp"
+#include "cache_mysql.hpp"
 
 #include <userver/utest/utest.hpp>
 

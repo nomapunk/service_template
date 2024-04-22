@@ -1,0 +1,11 @@
+{
+    "mysql_settings": {
+        "mysql-db": {
+            "hosts": ["localhost"],
+            "port": 8082,
+            "password": "password",
+            "user": "root",
+            "database": "test"
+        }
+    }
+}

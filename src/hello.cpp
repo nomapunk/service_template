@@ -11,6 +11,7 @@
 #include "userver/components/component_context.hpp"
 #include "userver/storages/mysql/cluster_host_type.hpp"
 #include "userver/storages/mysql/query.hpp"
+#include <userver/cache/mysql/cache.hpp>
 #include "userver/storages/secdist/component.hpp"
 #include "userver/storages/secdist/provider_component.hpp"
 #include "userver/storages/secdist/secdist.hpp"
@@ -18,7 +19,6 @@
 #include <userver/storages/mysql/component.hpp>
 #include <userver/storages/mysql/cluster.hpp>
 #include <userver/storages/mysql.hpp>
-#include "cache_mysql.hpp"
 
 namespace service_template {
 
